@@ -11,3 +11,5 @@ This code is in a very early developmental state and is quite unusable.
 ### 2018-03-08 
 - First commit
 - Started log
+- Ported Bencoding, MetaInfo parsers to Foundation
+

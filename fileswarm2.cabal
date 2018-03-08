@@ -6,7 +6,7 @@ homepage:            https://github.com/lisphacker/fileswarm2#readme
 author:              Gautham Ganapathy
 maintainer:          gauthamg@gmail.com
 copyright:           (c) Gautham Ganapathy, 2018
-category:            Web
+category:            Network
 build-type:          Simple
 cabal-version:       >=1.10
 extra-source-files:  README.md
@@ -17,5 +17,15 @@ executable fileswarm2
   default-language:    Haskell2010
   default-extensions:  NoImplicitPrelude
                      , OverloadedStrings
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       attoparsec
+                     , base >= 4.7 && < 5
+                     , bytestring
+                     , bytestring-conversion
+                     , containers
+                     , cryptonite
                      , foundation
+                     , lens
+                     , memory
+                     , mtl
+                     , text
+                     , time
